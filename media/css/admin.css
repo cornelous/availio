@@ -507,6 +507,17 @@ table.list tbody tr td.handles{
 	/*border:1px solid #FFF;*/
 	}
 	
+	.resp-vtabs .resp-tabs-container {
+		padding: 0px;
+		background-color: #fff;
+		float: left;
+		width: 1620px !important;
+		overflow:visible !important;
+		min-height: 250px;
+		clear: none;
+		margin-left:260px;
+	}
+	
 	
 	
 .demo {
