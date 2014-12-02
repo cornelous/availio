@@ -38,16 +38,16 @@
       <file leaf-file-name="application.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="538" selection-end="538" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="360">
+            <state line="18" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/account/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+            <state line="13" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -89,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="1072" selection-end="1072" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
+            <state line="26" column="7" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.66101694" vertical-offset="0" max-vertical-offset="590">
               <folding />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/application/views/common/footer.php" />
         <option value="$PROJECT_DIR$/scripts/availio.sql" />
         <option value="$PROJECT_DIR$/application/views/template.php" />
-        <option value="$PROJECT_DIR$/application/classes/controller/application.php" />
         <option value="$PROJECT_DIR$/application/views/account/login.php" />
+        <option value="$PROJECT_DIR$/application/classes/controller/application.php" />
       </list>
     </option>
   </component>
@@ -488,20 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/classes/controller/application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="538" selection-end="538" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="1072" selection-end="1072" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/availio.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="35" selection-start="634" selection-end="634" vertical-scroll-proportion="-4.08" vertical-offset="66" max-vertical-offset="630">
@@ -511,7 +497,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/account/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state line="13" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/controller/application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.66101694" vertical-offset="0" max-vertical-offset="590">
           <folding />
         </state>
       </provider>
