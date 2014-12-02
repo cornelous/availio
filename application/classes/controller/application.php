@@ -11,7 +11,7 @@ abstract class Controller_Application extends Controller_Template {
 
         $this->template->view = '';
         $this->template->styles = array('admin', 'admin-calendar', 'admin-calendar_1', 'admin-pages', 'mootools-roar', 'nigran.datepicker', 'jquery-ui-1.10.1');
-        $this->template->styles = array('easy-responsive-tabs');
+        $this->template->tabstyles = array('easy-responsive-tabs');
         $this->template->scripts = array();
     }
 
