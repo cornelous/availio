@@ -178,9 +178,7 @@
 </head>
 <body>
         <div id="wrapper">
-            <div id="header"><?php echo View::factory('common/header'); ?></div>
             <div id="content"><?php echo $view; ?></div>
-            <div id="footer"><?php echo View::factory('common/footer'); ?></div>
         </div>
 </body>
 </html>
