@@ -2,6 +2,14 @@ DROP DATABASE IF EXISTS availio;
 CREATE DATABASE availio;
 USE availio;
 
+
+CREATE TABLE IF NOT EXISTS `provinces` (
+`id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+`province` varchar(127) NOT NULL,
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO `provinces` (`id`,`province`) VALUES ('', 'WESTERN CAPE'),('', 'EASTERN CAPE'), ('','GAUTENG'), ('', 'KWAZULU NATAL') ;
+
 CREATE TABLE IF NOT EXISTS `properties` (
 `id` varchar(128) NOT NULL,
 `bbid` varchar(128) NOT NULL,
