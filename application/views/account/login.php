@@ -1,4 +1,4 @@
-<table id="login">
+<table id="tlogin">
     <tr>
         <th><img src="<?php echo url::base(); ?>media/images/login-logo.png" alt="<?php echo $site_name; ?>" /></th>
         <th></th>
