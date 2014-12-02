@@ -10,7 +10,7 @@ abstract class Controller_Application extends Controller_Template {
         View::set_global('site_name', 'Availio - FREE Online Booking Calendar');
 
         $this->template->view = '';
-        $this->template->styles = array('reset', 'mukuru');
+        $this->template->styles = array('common', 'styles');
         $this->template->scripts = array();
     }
 
