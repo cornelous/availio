@@ -7,7 +7,7 @@ abstract class Controller_Application extends Controller_Template {
         parent::before();
 
         //Global variables
-        View::set_global('site_name', 'Mukuru Assignment');
+        View::set_global('site_name', 'Availio - FREE Online Booking Calendar');
 
         $this->template->view = '';
         $this->template->styles = array('reset', 'mukuru');
