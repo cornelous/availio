@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title><?php echo $site_name?></title>
-    <link rel="shortcut icon" href="<?php echo URL::base(); ?>media/img/favicon.ico">
+    <link rel="shortcut icon" href="<?php //echo URL::base(); ?>media/img/favicon.ico">
     <?php foreach ($styles as $style) : ?>
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo URL::base(); ?>media/css/<?php echo $style; ?>.css"  />
     <?php endforeach; ?>
