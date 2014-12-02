@@ -19,6 +19,7 @@
             </tr>
             <tr>
                 <td>
+                    <input type="submit" id="btn" value="Login" style="width:100px;" tabindex="4">&nbsp;&nbsp;
                     <?php echo Form::submit('submit', 'Login'); ?>
                 </td>
             </tr>
