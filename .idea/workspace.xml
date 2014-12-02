@@ -59,19 +59,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="66" selection-start="404" selection-end="404" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="345">
+            <state line="12" column="58" selection-start="396" selection-end="396" vertical-scroll-proportion="0.29850745" vertical-offset="0" max-vertical-offset="603">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/account/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="133" selection-start="184" selection-end="184" vertical-scroll-proportion="0.076271184" vertical-offset="0" max-vertical-offset="690">
+            <state line="3" column="116" selection-start="167" selection-end="167" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="690">
               <folding>
                 <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#!!top" expanded="true" />
               </folding>
@@ -126,8 +126,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/application/views/common/footer.php" />
-        <option value="$PROJECT_DIR$/application/classes/controller/application.php" />
         <option value="$PROJECT_DIR$/application/views/account/login.php" />
+        <option value="$PROJECT_DIR$/application/classes/controller/application.php" />
       </list>
     </option>
   </component>
@@ -614,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/classes/controller/application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="404" selection-end="404" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/common/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="97" selection-start="20" selection-end="113" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="345">
@@ -644,10 +637,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/account/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="133" selection-start="184" selection-end="184" vertical-scroll-proportion="0.076271184" vertical-offset="0" max-vertical-offset="690">
+        <state line="3" column="116" selection-start="167" selection-end="167" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="690">
           <folding>
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/controller/application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="58" selection-start="396" selection-end="396" vertical-scroll-proportion="0.29850745" vertical-offset="0" max-vertical-offset="603">
+          <folding />
         </state>
       </provider>
     </entry>
