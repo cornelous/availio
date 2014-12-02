@@ -1,7 +1,7 @@
 <table id="login">
     <tr>
         <th>Login</th>
-        <img src="<?php echo url::base(); ?>media/images/login-logo.png" alt="<?php echo $site_name; ?>" />
+        <div id="login-logo">img src="<?php echo url::base(); ?>media/images/login-logo.png" alt="<?php echo $site_name; ?>" /></div>
         <th></th>
     </tr>
             <?php echo Form::open(); ?>
