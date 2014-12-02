@@ -1,4 +1,3 @@
-<body id="page_admin-login">
 <!-- START WRAPPER -->
 <div id="wrapper">
 
@@ -57,4 +56,3 @@
 
 </div>
 <!-- END WRAPPER -->
-</body>
