@@ -1,1 +1,0 @@
-<p> &copy; Availio  <?php echo date("Y");?> , all rights reserved - <?php echo $site_name; ?></p>
