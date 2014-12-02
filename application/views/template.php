@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <title><?php echo $site_name?></title>
-    <link rel="shortcut icon" href="<?php //echo URL::base(); ?>media/img/favicon.ico">
-
     <?php foreach ($styles as $style) : ?>
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo URL::base(); ?>media/css/<?php echo $style; ?>.css"  />
     <?php endforeach; ?>
@@ -16,6 +14,7 @@
         <script type="text/javascript" src="<?php echo url::base(); ?>media/js/<?php echo $script; ?>.js"></script>
     <?php endforeach; ?>
 
+    <link rel="stylesheet" href="media/css/admin.css">
     <script type="text/javascript" src="media/js/formcheck/lang/en.js"></script>
     <script type="text/javascript" src="media/js/mootools-formcheck.js"></script>
     <script type="text/javascript" src="media/js/mootools-roar.js"></script>
