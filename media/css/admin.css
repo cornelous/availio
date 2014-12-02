@@ -1,0 +1,538 @@
+html,body{
+	margin:0px 0px;
+	padding:0px;
+	}
+body{
+	background: #00aeef;
+	color:#666666;
+	font-size: 0.8em;
+	font-family: trebuchet MS, tahoma, verdana, arial, sans-serif;
+	}
+
+img:hover{background:none !important;}
+	
+a{text-decoration:none;color:#6d6e71;}
+a:hover{text-decoration:none;color:#4f4f4f;}
+
+#btn{background-color:#00aeef !important;color:#ffffff !important;border-radius:4px;font-weight:bold;text-transform:uppercase;}
+
+#season_table thead{background-color:#8c8c8c; border:1px solid #8c8c8c;color:#ffffff;text-align:center;font-weight:bold;font-size:13px;}
+#season_table tbody{background-color:#f8f8f8; border:1px solid #cdedf0;font-size:12px;}
+
+#season_table thead tr td{text-align: center !important;}
+
+#s_prop_name{color:00aeef;font-size:20px;padding:10px 3px;}
+
+#price-color{color:#a5a5a5;font-weight:normal;font-size:9px;} 
+.booked #price-color{color:#666666;font-weight:normal;font-size:9px;}
+.booked_pr #price-color{color:#666666;font-weight:normal;font-size:9px;}
+
+#key li{height:20px !important;}
+#key ul {padding:5px;height:27px;}
+#key ul li{float:left;width:125px !important;}
+#add_prop{background-color:#00aeef;color:#ffffff;border-radius:4px;padding:10px;margin-top:5px;font-size:15px;}
+#add_propp{background-color:#00aeef;color:#ffffff;border-radius:4px;padding:4px;margin-top:5px;font-size:15px;}
+
+ 
+#cal_in{padding-top:10px;}
+.aparname #cal_in{cursor: pointer;padding-top:10px;padding-left:10px;text-align:left;}
+ 
+/*
+=common
+**********/
+.clear	{	clear:both;			}
+.float_l{	float:left;			}
+.float_r{	float:right;		}
+.center	{	text-align:center;	}
+.left	{	text-align: left;	}
+.right	{	text-align: right;	}
+.top	{	vertical-align: top;}
+
+
+#header{
+	background:#006699;
+	padding:5px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color:#FFF;
+	font-size:1.4em;
+	margin-bottom:4px;
+	}
+#header #version{
+	float:right;
+	font-size:80%;
+	margin:20px 20px 0px 0px;
+	}
+#footer{
+	clear:both;
+	margin-top:40px;
+	background:#CCC;
+	padding:10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	font-size:0.8em;
+	color:#333;
+	overflow:auto;
+}
+#footer a{
+	color:#006699;
+	text-decoration:none;
+	}
+#footer ul{
+	float:left;
+	margin-top:4px;
+	}
+#footer ul li{
+	float:left;
+	margin-left:8px;
+	padding:0px 4px;
+	}
+.warning{
+	text-align:center;
+	border-top:1px solid red;
+	border-bottom:1px solid red;
+	background: #FFFFEE;
+	color:red;
+	padding:10px;
+	margin-bottom:20px;
+	}
+.warning ul{
+	line-height:24px;
+	font-size:1.3em;
+	}
+.warning ul li{
+	text-align:left;
+	}
+input,textarea, .select{
+	padding:10px;
+	font-size:14px;
+	border:none;
+	-moz-border-radius: 4px;
+	-webkit-border-radius:4px;
+	margin-bottom:10px;
+	border-radius:4px;
+	background-color:#f2f2f2;
+	color:#666666;
+	}
+label{
+	padding:3px;
+	font-size:1.3em;
+	}
+input:focus, textarea:focus, input:hover, textarea:hover{
+	background-color: #DDDDDD;
+}
+input[type=submit],label,select,.pointer    { cursor:pointer; }
+	
+input[type=submit]{background-color:#00aeef;color:#ffffff;font-weight:bold;}
+	
+#menuu{
+	/*padding:4px;*/
+	background: #00aeef;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	/*border:1px solid #CCC;*/
+	height:1000px;
+	width:230px
+	}
+#menuu ul li{ 
+	float:left;
+	padding:8px;
+	width:200px;
+	background:#00aeef;
+	-moz-border-radius: 3px;
+	-webkit-border-radius:3px;
+	margin-right:2px;
+	border-bottom:1px solid #40c2f3;
+	color:#ffffff;
+	}
+#menuu #menuu_icons li{width:200px !important;margin-right:0px !important;}
+#menuu_icons{
+	float:right;
+	}
+ul#menuu_icons li{
+	padding:2px;
+	}
+#menuu ul li.active{
+	background:#ffffff;
+	border:none;
+	color:#00aeef;
+	}
+#menuu ul li a{
+	color:#ffffff;
+	text-decoration:none;
+	line-height:22px;
+	}
+#menuu ul li.active a{
+	color:#00aeef;
+	}
+	
+#menuu #Properties{background-image:url(../images/prop_active.png); background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}
+.active #Properties {background-image:url(../images/prop.png) !important; background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}	
+
+#menuu #Seasons{background-image:url(../images/cal_active.png); background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}
+.active #Seasons {background-image:url(../images/cal.png) !important; background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}	
+	
+#menuu #Bookings{background-image:url(../images/book_active.png); background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}
+.active #Bookings {background-image:url(../images/book.png) !important; background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}	
+	
+#menuu #ViewCalendar{background-image:url(../images/view_active.png); background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}
+.active #ViewCalendar {background-image:url(../images/view.png) !important; background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}	
+	
+#menuu #BookingStates{background-image:url(../images/book_states.png); background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}
+.active #BookingStates {background-image:url(../images/book_states_active.png) !important; background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}	
+			
+#menuu #CreateCalendarLink{background-image:url(../images/cal_link.png); background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}
+.active #CreateCalendarLink {background-image:url(../images/cal_link_active.png) !important; background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}		
+   
+#menuu_icons #CalendarConfiguration{background-image:url(../images/config.png); background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}
+.active #CalendarConfiguration {background-image:url(../images/config_active.png) !important; background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}		
+	  
+/*#menuu_icons #CreateCalendarLink{background-image:url(../images/create_active.png); background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}
+.active #CreateCalendarLink {background-image:url(../images/create.png) !important; background-repeat:no-repeat;width:20px;height:23px;float:left;padding-left:10px;}		*/
+
+#menuu_icons #AdminUsers{background-image:url(../images/users.png); background-repeat:no-repeat;width:20px;height:20px;float:left;padding-left:10px;}
+.active #AdminUsers {background-image:url(../images/users_active.png) !important; background-repeat:no-repeat;width:20px;height:20px;float:left;padding-left:10px;}	
+		
+#menuu_icons #Logout{background-image:url(../images/logout_active.png); background-repeat:no-repeat;width:20px;height:20px;float:left;padding-left:10px;}
+.active #Logout {background-image:url(../images/logout.png) !important; background-repeat:no-repeat;width:20px;height:20px;float:left;padding-left:10px;}	
+
+#menuuli{line-height:20px;}		
+	
+	
+#title{
+	border-bottom:1px solid #e4e4e4;
+	height:80px;
+	margin-bottom:30px;
+	padding:4px;
+	}
+#title h1{
+	font-size:22px;
+	line-height:1.2em;
+	padding:12px 0px;
+	margin:0px;
+	}
+#contents{
+	margin-top:0px;
+	}
+h2{
+	font-size:1em;
+	padding:4px;
+	font-weight: bold;
+	}
+ul#list_order{
+	clear:both;
+	}
+ul#list_order li{
+	padding:6px 6px 6px 0px;
+	border:1px solid #DDD;
+	margin-bottom:1px;
+	}
+ul#list_order li .modified{
+	font-size:0.7em;
+	color:red;
+	}
+
+.icons{
+	float:right;
+	margin-right:6px;
+	}
+.new{
+	margin:10px;
+	}
+#ajax_message{
+	padding:10px 0px;
+	margin-bottom:10px;
+	width:100%;
+	clear:both;
+	margin-left:0px;
+	overflow:auto;
+	margin-bottom:6px;
+	}
+#cal_controls{
+	margin-bottom:20px;
+	}
+#cal_controls #ajax_message{
+	width:99%;
+	clear:none;
+	float:left;
+	margin-bottom:0px;
+	margin-left:6px;
+	padding:4px 0px;
+	border-radius:4px;
+	}
+#login{
+	margin:20px auto;
+	font-size:14px;
+	/*border:1px solid #DDD;*/
+	-moz-border-radius: 6px;
+	-webkit-border-radius:6px;
+	padding:5px;
+	margin-top:14%; 
+	width:370px; 
+	background-color:#ffffff; 
+	box-shadow:0 0 2px rgba(0, 0, 0, 0.2);
+	border-radius:4px;
+	}
+	
+#login-logo{text-align:center;padding:10px 0px;}
+#menuu-logo{text-align:center;padding:10px 0px;}	
+
+#login input{
+	width:93%;
+	background-color:#f2f2f2;
+	color:#666666;
+	}
+#login h2{
+	background:#DDD;
+	padding:6px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color:#111;
+	margin-bottom:20px;
+	}
+#login .inner{
+	padding:10px;
+	}
+	
+#cal_item{
+	float:left;
+	margin-left:10px;
+	font-size:1.2em;
+	font-weight:bold;
+	padding-top:4px;
+	}
+#predefined_state{
+	float:right;
+	}
+	
+.modified{
+	color:red;
+	font-size: 0.7em;
+	}
+table{
+	width:100%;
+	}
+table.list{
+	width:100%;
+	}
+table.list td{
+	padding:10px;
+	}
+table.data thead tr td,
+table.list thead tr td{
+	/*text-align:center;*/
+	background:#8c8c8c;
+	padding:15px;
+	color:#ffffff;
+	font-weight:bold;
+	}
+td.options{
+	width:80px;
+	text-align:center;
+	}
+td.states{
+	width:40px;
+	}
+td.id_item{
+	width:20px;
+	}
+table.list tbody tr td,
+td.data{
+	/*border:1px solid #efefef;*/
+	}
+
+table.list thead tr td.spacer{
+	border:none;
+	background-color:#FFF;
+	}
+table.list tbody tr.odd td{
+	background-color:#efefef;
+	}
+.note{
+	color:#666666;
+	width:98%;
+	float:right;
+	font-style: italic;
+	line-height:20px;
+	}
+.edit_note	{color:#666666;
+	width:93%;
+	float:right;
+	font-style: italic;
+	line-height:35px;}
+	
+.mod_note{
+    width:400px;
+    float:right;
+    font-style: italic;
+    margin-top:8px;
+}
+#pass{margin-top:-18px;padding-left:25px;}
+.create_note{
+	color:#666666;
+	width:98%;
+	
+	font-style: italic;
+	line-height:20px;
+	}
+
+#item_form .side{background:none;color:#666666;text-align:left;/*width:6%;*/}
+#t-end{width:100%;height:1px;background-color:#e4e4e4;margin-top:10px;margin-bottom:30px;}
+#s-end{width:100%;height:1px;background-color:#e4e4e4;margin-top:60px;margin-bottom:30px;}
+#cal_mnth{width:115px;float:left;font-size:14px;color:#666666;line-height:20px;}
+.key{float:right;width:84%;}
+#inst_cal{text-align:right;float:right;font-size:14px;background-image:url(../images/info.png);width:240px;background-repeat:no-repeat;padding-left:30px;height:20px;font-style:italic;color:#666666;}
+#instt_cal{text-align:right;float:left;width:100%;font-size:14px;}
+  
+ 
+#key-avail{margin-top:0px;width:15px;height:15px;background-color:#efefef;border-radius:4px;display:inline-block;}
+#key-book{margin-top:0px;width:15px;height:15px;background-color:#f3b7b1;border-radius:4px;display:inline-block;}
+#key-prov{margin-top:0px;width:15px;height:15px;background-color:#dcffca;border-radius:4px;display:inline-block;}
+
+#key-table{margin-top:-5px;width:50%;float:right;}
+#key-table th, td{padding:0px;}	 
+  
+.side{
+	text-align:right;
+	padding:8px;
+	width:160px;
+	background:#3399cc;
+	color:#FFF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius:3px;
+	font-weight:normal;
+	font-size:14px;
+	}
+	
+#sortable tbody tr{background-color:#e0e0e0 !important;}
+
+#sortable tbody .odd{background-color:#efefef !important;}
+
+/*overwrite "public" calendar.css*/
+#wrapper{ 
+	width:100%;
+	/*margin:10px auto;*/
+	}
+#cal_wrapper{
+	width:100%;
+}
+#the_months{
+	width:100%;
+	}
+
+#tlogin tbody tr td{background-color:#ffffff;padding:0px !important;}
+
+/*installation*/
+
+p{
+	line-height:1.6em;
+	padding:10px;
+	font-size:1.2em;
+	}
+
+#page_install #contents ul{
+	color:#CCC;
+	font-size:1.3em;
+	list-style: lower-roman;
+	margin:10px 0px 10px 40px;
+	}
+#page_install #contents ul li{
+	line-height:24px;
+	list-style-image: url("../icons/white_flag.png");
+	}
+#page_install #contents ul li.ok{
+	text-decoration:line-through;
+	color:#666;
+	list-style-image: url("../icons/green_flag.png");
+	}
+#page_install #contents ul li.ko{
+	color:red;
+	list-style-image: url("../icons/red_flag.png");
+	}
+#page_install #contents ul li.current{
+	color:#000;
+	}
+
+	
+fieldset { 
+	border:1px solid #ccc;	
+	padding:10px;
+	margin:10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius:6px;
+	}
+
+legend {
+  	padding: 0.2em 0.5em;
+  	color: #111;	
+  	border:1px solid #ccc;	
+	-moz-border-radius: 6px;
+	-webkit-border-radius:6px;
+	background:#EEE;
+	
+  }
+form dl{
+	font-size:0.7em;
+	display: block;
+	width: 100%;
+	}
+form dt{
+	clear: left;
+	float: left;
+	text-align:right;
+	padding:2px 6px 2px 2px;
+	width:200px;
+	background:#99ccff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius:3px;
+	margin-bottom:4px;
+	margin-right:6px;
+	color:#FFF;
+	
+	}
+form dd{
+	float:left;
+	margin-left:0px;
+	}
+form dl .submit{
+	clear: left;
+	float: left;
+	margin-left:214px;
+	}
+	
+table.list tbody tr td.handles{
+	background:url("../icons/handle.png") no-repeat;
+	background-position: center 50%;
+	width:5px;
+	/*border:1px solid #FFF;*/
+	}
+	
+	
+	
+.demo {
+            width: 980px;
+            margin: 0px auto;
+        }
+        .demo h1 {
+                margin:33px 0 25px;
+            }
+        .demo h3 {
+                margin: 10px 0;
+            }
+        pre {
+            background: #fff;
+        }
+        @media only screen and (max-width: 780px) {
+        .demo {
+                margin: 5%;
+                width: 90%;
+         }
+        .how-use {
+                float: left;
+                width: 300px;
+                display: none;
+            }
+        }
+        #tabInfo {
+            display: none;
+        }	
