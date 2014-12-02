@@ -6,7 +6,7 @@
     <div id="login">
 
         <!-- START LOGIN-LOGO -->
-        <div id="login-logo"><img src="images/login-logo.png"></div>
+        <div id="login-logo"><img src="<?php echo url::base(); ?>media/images/login-logo.png" alt="<?php echo $site_name; ?>" /></div>
         <!-- END LOGIN-LOGO -->
 
         <!-- START INNER -->

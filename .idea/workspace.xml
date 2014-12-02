@@ -47,7 +47,7 @@
       <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/account/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="895" selection-end="895" vertical-scroll-proportion="0.17910448" vertical-offset="312" max-vertical-offset="975">
+            <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.15254237" vertical-offset="0" max-vertical-offset="975">
               <folding>
                 <element signature="n#style#0;n#select#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -519,7 +519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/account/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="895" selection-end="895" vertical-scroll-proportion="0.17910448" vertical-offset="312" max-vertical-offset="975">
+        <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.15254237" vertical-offset="0" max-vertical-offset="975">
           <folding>
             <element signature="n#style#0;n#select#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
