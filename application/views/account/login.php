@@ -1,6 +1,5 @@
 <table id="login">
     <tr>
-        <th>Login</th>
         <th><img src="<?php echo url::base(); ?>media/images/login-logo.png" alt="<?php echo $site_name; ?>" /></th>
         <th></th>
     </tr>
@@ -19,7 +18,6 @@
             </tr>
             <tr>
                 <td>
-                    <input type="submit" id="btn" value="Login" style="width:100px;" tabindex="4">&nbsp;&nbsp;
                     <?php echo Form::submit('submit', 'Login'); ?>
                 </td>
             </tr>
