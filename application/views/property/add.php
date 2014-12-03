@@ -7,10 +7,12 @@
         <!-- START NAVIGATION -->
         <ul class="resp-tabs-list">
 
+            <?php echo HTML::anchor('property/add', 'Add Property');?>
+
             <div id="menuu">
                 <ul id="dropdown-menu" class="dropdown">
                     <li id="menuu-logo"><img src="<?php echo URL::base(); ?>media/images/menu-logo.png"></li>
-                    <a href="#" title="Properties">
+                    <?php echo HTML::anchor('property', 'Properties');?>
                         <li class="">
                             <div id="Properties"></div>
                             <div id="menuuli">Properties</div>
@@ -43,19 +45,7 @@
                 </ul>
 
                 <ul id="menuu_icons">
-                    <a href="#" title="Calendar Configuration">
-                        <li>
-                            <div id="CalendarConfiguration"></div>
-                            <div id="menuuli">Calendar Configuration</div>
-                        </li>
-                    </a>
-                    <a href="#" title="Admin Users">
-                        <li>
-                            <div id="AdminUsers"></div>
-                            <div id="menuuli">Admin Users</div>
-                        </li>
-                    </a>
-                    <a href="#" title="Logout">
+                    <?php echo HTML::anchor('logout', 'Logout');?>
                         <li>
                             <div id="Logout"></div>
                             <div id="menuuli">Logout</div>
@@ -69,7 +59,7 @@
         </ul>
         <!-- END NAVIGATION -->
 
-        
+
 
 </div>
 
