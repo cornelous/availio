@@ -33,6 +33,16 @@ class Controller_Property extends Controller_Application {
         $this->template->view = $view;
 	}
 
+    public function action_addproperty()
+    {
+        //add new property
+        //redirect back to properties list
+
+        echo "We are here";
+
+
+
+    }
 
 
 } // End Property

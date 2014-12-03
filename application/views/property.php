@@ -49,3 +49,5 @@
 </div>
 <br>
 
+<?php echo HTML::anchor('addproperty', 'Add Property');?>
+

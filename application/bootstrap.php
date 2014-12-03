@@ -167,6 +167,13 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
         'action'     => 'index',
     ));
 
+Route::set('addproperty', '(<controller>(/<action>(/<id>)))')
+    ->defaults(array(
+        'controller' => 'property',
+        'action'     => 'addproperty',
+    ));
+
+
 if ( ! defined('SUPPRESS_REQUEST'))
 {
 	/**
