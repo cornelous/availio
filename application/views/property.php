@@ -1,16 +1,16 @@
 <table>
     <tr>
-        <th>Username</th>
-        <th>Name</th>
-        <th>Address</th>
-        <th>City</th>
+        <th>Avail Id</th>
+        <th>External Id</th>
+        <th>Property Name</th>
+        <th>Property Type</th>
         <th>Country</th>
-        <th>Email</th>
-        <th>Phonenumber</th>
-        <th>Password</th>
-        <th>Active</th>
-        <th>Verified</th>
-        <th>Actions</th>
+        <th>Bedrooms</th>
+        <th>Sleeps</th>
+        <th>Province</th>
+        <th>City</th>
+        <th>Suburb</th>
+        <th>URL</th>
     </tr>
     <?php $count = 0;?>
     <?php foreach ($properties as $property) : ?>
