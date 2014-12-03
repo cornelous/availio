@@ -23,7 +23,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="side"><?php echo Form::label('externalidlabel', 'External ID')?></td>
+                    <td class="side">External ID</td>
                     <?php $externalidinputattributes = array('placeholder'=>'ID from API', 'id'=>'externalid', 'style'=>'width:250px'); ?>
                     <td><?php echo Form::input('externalid', '', $externalidinputattributes); ?></td>
                 </tr>
