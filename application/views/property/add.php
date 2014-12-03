@@ -38,7 +38,7 @@
         </ul>
         <!-- END NAVIGATION -->
 
-
+        <?php echo $viewlet ?>
 
 </div>
 

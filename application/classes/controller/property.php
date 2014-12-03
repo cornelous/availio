@@ -37,8 +37,10 @@ class Controller_Property extends Controller_Application {
     {
         //add new property
         //redirect back to properties list
+        $viewlet = View::factory('property/add_');
         $view = View::factory('property/add');
         $this->template->view = $view;
+        $this->template->viewlet = $viewlet;
     }
 
 
