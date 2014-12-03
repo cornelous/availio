@@ -62,7 +62,7 @@
       <file leaf-file-name="add.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/property/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="37" selection-start="807" selection-end="807" vertical-scroll-proportion="0.29850745" vertical-offset="135" max-vertical-offset="1125">
+            <state line="9" column="28" selection-start="196" selection-end="196" vertical-scroll-proportion="0.2238806" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -798,7 +798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/property/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="807" selection-end="807" vertical-scroll-proportion="0.29850745" vertical-offset="135" max-vertical-offset="1125">
+        <state line="9" column="28" selection-start="196" selection-end="196" vertical-scroll-proportion="0.2238806" vertical-offset="0" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
