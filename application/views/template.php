@@ -98,7 +98,7 @@
                         var order_field=tblSortable.get('field');
                         var order_table=tblSortable.get('table');
                         var req = new Request({
-                            url:'/ac-includes/ajax/list_order.ajax.php',
+                            url:'/media/ac-includes/ajax/list_order.ajax.php',
                             method:'get',
                             autoCancel:true,
                             data: {'sort_order':sort_order,'type':order_table,'order_field':order_field},
