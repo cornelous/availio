@@ -8,7 +8,7 @@
         </div>
 
         <!-- START ADD FORM -->
-        <?php echo Form::open(); ?>
+        <form method="post" action="" id="item_form">
             <table>
                 <tr>
                     <td class="side">Apartment</td>
@@ -24,8 +24,7 @@
                 </tr>
                 <tr>
                     <td class="side">External ID</td>
-                    <?php $externalidinputattributes = array('placeholder'=>'ID from API', 'id'=>'externalid', 'style'=>'width:250px'); ?>
-                    <td><?php echo Form::input('externalid', '', $externalidinputattributes); ?></td>
+                    <td><input style="width:250px;" type="text" Placeholder="ID from API" id="date-picker-input-1" class="my_date" name="from_date" ></td>
                 </tr>
                 <tr>
                     <td class="side">Avail ID</td>
@@ -43,7 +42,7 @@
 
             <input type="submit" name="submit" value="Save">
 
-        <?php echo Form::close(); ?>
+        </form>
         <!-- END ADD FORM -->
 
         <div class="clear"></div>
