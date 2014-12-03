@@ -23,7 +23,6 @@
                         </li>
                     </a>
                 </ul>
-
                 <ul id="menuu_icons">
                     <a href="#" title="Logout">
                         <li>
