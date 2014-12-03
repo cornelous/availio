@@ -161,10 +161,10 @@ Route::set('property', '(<controller>(/<action>(/<id>)))')
         'action'     => 'index',
     ));
 
-Route::set('addproperty', '(<controller>(/<action>(/<id>)))')
+Route::set('propertyadd', '(<controller>(/<action>(/<id>)))')
     ->defaults(array(
         'controller' => 'property',
-        'action'     => 'addproperty',
+        'action'     => 'add',
     ));
 
 if ( ! defined('SUPPRESS_REQUEST'))
