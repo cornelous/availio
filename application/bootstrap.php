@@ -161,7 +161,7 @@ Route::set('property', '(<controller>(/<action>(/<id>)))')
         'action'     => 'index',
     ));
 
-Route::set('addproperty', 'addproperty')
+Route::set('addproperty', '(<controller>(/<action>(/<id>)))')
     ->defaults(array(
         'controller' => 'property',
         'action'     => 'addproperty',
