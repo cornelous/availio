@@ -13,7 +13,7 @@
                     <a href="#" title="Search">
                         <li class="">
                             <div id="Seasons"></div>
-                            <div id="menuuli">Seasons</div>
+                            <div id="menuuli">Search</div>
                         </li>
                     </a>
                     <a href="#" title="Properties">
