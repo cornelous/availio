@@ -41,6 +41,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="availio.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/availio.sql">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="36" selection-start="4360" selection-end="4360" vertical-scroll-proportion="-2.1447368" vertical-offset="857" max-vertical-offset="1395">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="property.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,13 +74,8 @@
       <file leaf-file-name="add.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/property/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="76" selection-start="330" selection-end="330" vertical-scroll-proportion="0.29307282" vertical-offset="0" max-vertical-offset="2160">
-              <folding>
-                <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#1;n#tr#3;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="71" column="8" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.8072917" vertical-offset="600" max-vertical-offset="1275">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,19 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="43" selection-start="7242" selection-end="7242" vertical-scroll-proportion="-1.882353" vertical-offset="2184" max-vertical-offset="2805">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="property.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/model/property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-16.875" vertical-offset="315" max-vertical-offset="2100">
+            <state line="48" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="21.666666" vertical-offset="1240" max-vertical-offset="2100">
               <folding />
             </state>
           </provider>
@@ -134,7 +132,6 @@
         <option value="$PROJECT_DIR$/media/css/admin.css" />
         <option value="$PROJECT_DIR$/media/css/styles.css" />
         <option value="$PROJECT_DIR$/application/views/account/login.php" />
-        <option value="$PROJECT_DIR$/scripts/availio.sql" />
         <option value="$PROJECT_DIR$/system/classes/kohana/log/file.php" />
         <option value="$PROJECT_DIR$/application/classes/model/property.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/welcome.php" />
@@ -144,6 +141,7 @@
         <option value="$PROJECT_DIR$/application/views/property.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/property.php" />
         <option value="$PROJECT_DIR$/application/views/template.php" />
+        <option value="$PROJECT_DIR$/scripts/availio.sql" />
         <option value="$PROJECT_DIR$/application/views/property/add.php" />
       </list>
     </option>
@@ -693,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/availio.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="736" selection-end="736" vertical-scroll-proportion="0.5576208" vertical-offset="0" max-vertical-offset="1395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/controller/application.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="5" selection-start="724" selection-end="724" vertical-scroll-proportion="0.38135594" vertical-offset="0" max-vertical-offset="590">
@@ -727,13 +715,6 @@
     <entry file="file://$PROJECT_DIR$/application/classes/model/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="2" selection-start="0" selection-end="3724" vertical-scroll-proportion="-8.125" vertical-offset="360" max-vertical-offset="2100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/classes/model/property.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-16.875" vertical-offset="315" max-vertical-offset="2100">
           <folding />
         </state>
       </provider>
@@ -801,15 +782,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/model/property.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="21.666666" vertical-offset="1240" max-vertical-offset="2100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/availio.sql">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="36" selection-start="4360" selection-end="4360" vertical-scroll-proportion="-2.1447368" vertical-offset="857" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/property/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="76" selection-start="330" selection-end="330" vertical-scroll-proportion="0.29307282" vertical-offset="0" max-vertical-offset="2160">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#3;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="71" column="8" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.8072917" vertical-offset="600" max-vertical-offset="1275">
+          <folding />
         </state>
       </provider>
     </entry>

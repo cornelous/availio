@@ -63,7 +63,7 @@ PRIMARY KEY (`id`)
 INSERT INTO `provinces` (`id`,`province`) VALUES ('', 'WESTERN CAPE'),('', 'EASTERN CAPE'), ('','GAUTENG'), ('', 'KWAZULU NATAL') ;
 
 CREATE TABLE IF NOT EXISTS `properties` (
-`availid` varchar(128) NOT NULL,
+`availioid` varchar(128) NOT NULL,
 `externalid` varchar(128) NOT NULL,
 `propertyname` varchar(128) NOT NULL,
 `propertytype` varchar(128) NOT NULL,
@@ -73,12 +73,12 @@ CREATE TABLE IF NOT EXISTS `properties` (
 `city` varchar(128) NOT NULL,
 `suburb` varchar(128) NOT NULL,
 `url` varchar(128) NOT NULL,
-PRIMARY KEY (`availid`),
-UNIQUE KEY `uniq_id` (`availid`),
+PRIMARY KEY (`availioid`),
+UNIQUE KEY `uniq_id` (`availioid`),
 UNIQUE KEY `uniq_bbid` (`externalid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `properties` (`availid`, `externalid`, `propertyname`, `propertytype`, `bedrooms`, `sleeps`, `province`, `city`, `suburb`, `url`) VALUES
+INSERT INTO `properties` (`availioid`, `externalid`, `propertyname`, `propertytype`, `bedrooms`, `sleeps`, `province`, `city`, `suburb`, `url`) VALUES
   ('1','17631', 'API Test 1 - One Room Type', 'One Room Type', 2, 10, 'Western Cape', 'Capetown', 'Camps Bay', 'http://www.oneroom.com'),
   ('2','17632', 'API Test 2 - Multi Room Types','Multipe Room Types', 1, 3, 'Western Cape', 'Capetown', 'Camps Bay', 'http://www.multiplerooms.com'),
   ('3','17633', 'API Test 3 - Apartments','Apartments', 4, 4, 'Western Cape', 'Capetown', 'Camps Bay', 'http://www.apartments.com');
