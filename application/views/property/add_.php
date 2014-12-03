@@ -29,16 +29,49 @@
                     <td><?php echo Form::input('externalid', '', $externalidinputattributes); ?></td>
                 </tr>
                 <tr>
-                    <td class="side">Avail ID</td>
-                    <td><input style="width:250px;" type="text" Placeholder="Availio ID" id="date-picker-input-2" class="my_date" name="to_date" ></td>
+                    <td class="side">Availio ID</td>
+                    <?php $availioidinputattributes = array('placeholder'=>'Availio ID', 'id'=>'availioid', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('availioid', '', $availioidinputattributes); ?></td>
                 </tr>
                 <tr>
                     <td class="side">Property Name</td>
-                    <td><input type="text" name="price" placeholder="Enter the price only. Ex: 1200" style="width:250px;"></td>
+                    <?php $propertynameinputattributes = array('placeholder'=>'Property Name', 'id'=>'propertyname', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('propertyname', '', $propertynameinputattributes); ?></td>
                 </tr>
                 <tr>
                     <td class="side">Property Type</td>
-                    <td><input type="text" name="price" placeholder="Enter the price only. Ex: 1200" style="width:250px;"></td>
+                    <?php $propertytypeinputattributes = array('placeholder'=>'Property Type', 'id'=>'propertytype', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('propertytype', '', $propertytypeinputattributes); ?></td>
+                </tr>
+                <tr>
+                    <td class="side">Bedrooms</td>
+                    <?php $bedroomsinputattributes = array('placeholder'=>'Bedrooms', 'id'=>'bedrooms', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('bedrooms', '', $bedroomsinputattributes); ?></td>
+                </tr>
+                <tr>
+                    <td class="side">Sleeps</td>
+                    <?php $sleepsinputattributes = array('placeholder'=>'Sleeps', 'id'=>'sleeps', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('sleeps', '', $sleepsinputattributes); ?></td>
+                </tr>
+                <tr>
+                    <td class="side">Province</td>
+                    <?php $provinceinputattributes = array('placeholder'=>'Province', 'id'=>'province', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('province', '', $provinceinputattributes); ?></td>
+                </tr>
+                <tr>
+                    <td class="side">City</td>
+                    <?php $cityinputattributes = array('placeholder'=>'City', 'id'=>'city', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('city', '', $cityinputattributes); ?></td>
+                </tr>
+                <tr>
+                    <td class="side">Suburb</td>
+                    <?php $suburbinputattributes = array('placeholder'=>'Suburb', 'id'=>'suburb', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('suburb', '', $suburbinputattributes); ?></td>
+                </tr>
+                <tr>
+                    <td class="side">URL</td>
+                    <?php $urlinputattributes = array('placeholder'=>'Property Website', 'id'=>'url', 'style'=>'width:250px'); ?>
+                    <td><?php echo Form::input('url', '', $urlinputattributes); ?></td>
                 </tr>
             </table>
 
