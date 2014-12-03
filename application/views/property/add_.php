@@ -3,10 +3,9 @@
     <div id="contents">
 
         <div id="title">
-            <div class="float_l"><h1>Properties - Add</h1></div>
+            <div class="float_l"><h1>Properties - Add New</h1></div>
             <div class="clear"></div>
         </div>
-
         <!-- START ADD FORM -->
         <?php $item_formattributes = array('id'=>'item_form'); ?>
         <?php echo Form::open(NULL, $item_formattributes); ?>
@@ -62,8 +61,8 @@
                     <td><?php echo Form::input('url', '', $urlinputattributes); ?></td>
                 </tr>
             </table>
-
-            <input type="submit" name="submit" value="Save">
+            <?php $submitattributes = array('type' => 'submit'); ?>
+            <?php echo Form::input('submit', 'Submitt', $submitattributes); ?>&nbsp;&nbsp;
 
         <?php echo Form::close(); ?>
         <!-- END ADD FORM -->
