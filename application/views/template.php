@@ -15,7 +15,7 @@
         <script type="text/javascript" src="<?php echo url::base(); ?>media/js/<?php echo $script; ?>.js"></script>
     <?php endforeach; ?>
 
-    <link rel="stylesheet" href="mdeia/ac-contents/themes/default/css/reset.css">
+    <link rel="stylesheet" href="media/ac-contents/themes/default/css/reset.css">
     <link rel="stylesheet" href="media/css/admin-calendar.css">
     <link rel="stylesheet" href="media/css/admin.css">
     <script type="text/javascript" src="media/js/formcheck/lang/en.js"></script>
@@ -178,5 +178,5 @@
     </script>
 
 </head>
-
+        <?php echo $view; ?>
 </html>
