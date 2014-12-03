@@ -23,10 +23,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <?php $externalidlabelattributes = array('class'=>'side'); ?>
-                    <?php echo Form::label('externalidlabel', 'External ID', $externalidlabelattributes)?>
+                    <td class="side"><?php echo Form::label('externalidlabel', 'External ID')?></td>
                     <?php $externalidinputattributes = array('placeholder'=>'ID from API', 'id'=>'externalid', 'style'=>'width:250px'); ?>
-                    <?php echo Form::input('externalid', '', $externalidinputattributes); ?>
+                    <td><?php echo Form::input('externalid', '', $externalidinputattributes); ?></td>
                 </tr>
                 <tr>
                     <td class="side">Avail ID</td>
