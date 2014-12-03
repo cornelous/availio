@@ -9,7 +9,7 @@
 
             <div id="menuu">
                 <ul id="dropdown-menu" class="dropdown">
-                    <li id="menuu-logo"><img src="media/images/menu-logo.png"></li>
+                    <li id="menuu-logo"><img src="<?php echo URL::base(); ?>media/images/menu-logo.png"></li>
                     <a href="#" title="Properties">
                         <li class="">
                             <div id="Properties"></div>

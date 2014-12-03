@@ -15,18 +15,18 @@
         <script type="text/javascript" src="<?php echo url::base(); ?>media/js/<?php echo $script; ?>.js"></script>
     <?php endforeach; ?>
 
-    <link rel="stylesheet" href="media/ac-contents/themes/default/css/reset.css">
-    <link rel="stylesheet" href="media/css/admin-calendar.css">
-    <link rel="stylesheet" href="media/css/admin.css">
-    <script type="text/javascript" src="media/js/formcheck/lang/en.js"></script>
-    <script type="text/javascript" src="media/js/mootools-formcheck.js"></script>
-    <script type="text/javascript" src="media/js/mootools-roar.js"></script>
+    <link rel="stylesheet" href="<?php echo URL::base(); ?>media/ac-contents/themes/default/css/reset.css">
+    <link rel="stylesheet" href="<?php echo URL::base(); ?>media/css/admin-calendar.css">
+    <link rel="stylesheet" href="<?php echo URL::base(); ?>media/css/admin.css">
+    <script type="text/javascript" src="<?php echo URL::base(); ?>media/js/formcheck/lang/en.js"></script>
+    <script type="text/javascript" src="<?php echo URL::base(); ?>media/js/mootools-formcheck.js"></script>
+    <script type="text/javascript" src="<?php echo URL::base(); ?>media/js/mootools-roar.js"></script>
 
     <!--DATE PICKER-->
-    <script type="text/javascript" src="media/js/datepicker/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="media/js/datepicker/jquery-ui-1.10.1.min.js"></script>
-    <link rel="stylesheet" href="media/css/nigran.datepicker.css">
-    <link rel="stylesheet" href="media/css/jquery-ui-1.10.1.css" >
+    <script type="text/javascript" src="<?php echo URL::base(); ?>media/js/datepicker/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="<?php echo URL::base(); ?>media/js/datepicker/jquery-ui-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="<?php echo URL::base(); ?>media/css/nigran.datepicker.css">
+    <link rel="stylesheet" href="<?php echo URL::base(); ?>media/css/jquery-ui-1.10.1.css" >
 
     <script>
         $(function() {
@@ -149,8 +149,8 @@
         });
     </script>
 
-    <link type="text/css" rel="stylesheet" href="media/css/tabs/easy-responsive-tabs.css" />
-    <script src="media/js/tabs/easyResponsiveTabs.js" type="text/javascript"></script>
+    <link type="text/css" rel="stylesheet" href="<?php echo URL::base(); ?>media/css/tabs/easy-responsive-tabs.css" />
+    <script src="<?php echo URL::base(); ?>media/js/tabs/easyResponsiveTabs.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#horizontalTab').easyResponsiveTabs({
