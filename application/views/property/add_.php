@@ -12,18 +12,6 @@
         <?php echo Form::open(NULL, $item_formattributes); ?>
             <table>
                 <tr>
-                    <td class="side">Apartment</td>
-                    <td><select class="select" name="apartment">
-                            <option   value="65">Braemar </option>
-                            <option   value="67">Grimsby</option>
-                            <option   value="66">Neptune Isle 09</option>
-                            <option   value="64">Sunset Beach Villa</option>
-                            <option   value="62">test</option>
-                            <option   value="63">The Nelson Villa</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
                     <td class="side">External ID</td>
                     <?php $externalidinputattributes = array('placeholder'=>'ID from API', 'id'=>'externalid', 'style'=>'width:250px'); ?>
                     <td><?php echo Form::input('externalid', '', $externalidinputattributes); ?></td>
