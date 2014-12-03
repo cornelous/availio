@@ -1,3 +1,4 @@
+<body id="page_bookings">
 <!-- START WRAPPER -->
 <div id="wrapper">
 
@@ -131,3 +132,4 @@
 
 </div>
 <!-- END WRAPPER -->
+</body>

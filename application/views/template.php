@@ -176,9 +176,5 @@
     </script>
 
 </head>
-<body>
-        <div id="wrapper">
-            <div id="content"><?php echo $view; ?></div>
-        </div>
-</body>
+        <?php echo $view; ?>
 </html>
