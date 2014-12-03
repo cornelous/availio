@@ -74,7 +74,7 @@
             <div id="contents">
 
                 <div id="title">
-                    <div class="float_l"><h1>Bookings - Add</h1></div>
+                    <div class="float_l"><h1>Properties - Add</h1></div>
                     <div class="clear"></div>
                 </div>
 
@@ -94,15 +94,19 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="side">Season Start Date</td>
-                            <td><input style="width:250px;" type="text" Placeholder="From Date" id="date-picker-input-1" class="my_date" name="from_date" ></td>
+                            <td class="side">External ID</td>
+                            <td><input style="width:250px;" type="text" Placeholder="ID from API" id="date-picker-input-1" class="my_date" name="from_date" ></td>
                         </tr>
                         <tr>
-                            <td class="side">Season End Date</td>
-                            <td><input style="width:250px;" type="text" Placeholder="To Date" id="date-picker-input-2" class="my_date" name="to_date" ></td>
+                            <td class="side">Avail ID</td>
+                            <td><input style="width:250px;" type="text" Placeholder="Availio ID" id="date-picker-input-2" class="my_date" name="to_date" ></td>
                         </tr>
                         <tr>
-                            <td class="side">Price</td>
+                            <td class="side">Property Name</td>
+                            <td><input type="text" name="price" placeholder="Enter the price only. Ex: 1200" style="width:250px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="side">Property Type</td>
                             <td><input type="text" name="price" placeholder="Enter the price only. Ex: 1200" style="width:250px;"></td>
                         </tr>
                     </table>
