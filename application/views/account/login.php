@@ -12,38 +12,38 @@
         <div class="inner">
 
             <!-- START LOGIN FORM -->
-            <form method="post" action="">
+            <?php echo Form::open(); ?>
 
-                <table id="tlogin">
-                    <tr>
-                        <td>
-                            <input type="text" placeholder="Name:" name="username" value="" tabindex="1">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="password" placeholder="Password:" name="password" value="" tabindex="2">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <select style="display:none;" name="lang" class="select" tabindex="3"></select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="submit" id="btn" value="Login" style="width:100px;" tabindex="4">&nbsp;&nbsp;
+            <table id="tlogin">
+                <tr>
+                    <td>
+                        <?php echo Form::input('username'); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo Form::password('password'); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select style="display:none;" name="lang" class="select" tabindex="3"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo Form::submit('submit', 'Login'); ?>
 
-                            <a href="#">Register</a>
+                        <a href="#">Register</a>
 
-                            &nbsp;&nbsp;<span style="color:#6d6e71;">|</span>&nbsp;&nbsp;
+                        &nbsp;&nbsp;<span style="color:#6d6e71;">|</span>&nbsp;&nbsp;
 
-                            <a href="#">Forgot Password ??</a>
-                        </td>
-                    </tr>
-                </table>
+                        <a href="#">Forgot Password ??</a>
+                    </td>
+                </tr>
+            </table>
 
-            </form>
+            <?php echo Form::close(); ?>
             <!-- END LOGIN FORM -->
 
         </div>

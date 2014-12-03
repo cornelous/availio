@@ -7,11 +7,11 @@ class Controller_Welcome extends Controller_Application {
 	    $session = Session::instance();
         $username = $session->get('username');
 
-        //protecting my controllers --- to make a helper class later
-        if (!isset($username))
-        {
-          $this->request->redirect('login');
-        }
+//         protecting my controllers --- to make a helper class later
+//        if (!isset($username))
+//        {
+//          $this->request->redirect('login');
+//        }
 
         $user = new Model_User;
         $user_count = $user->count_all();
