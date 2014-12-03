@@ -14,10 +14,9 @@ return array
              * string   password    database password
              * boolean  persistent  use persistent connections?
              */
-            'dsn'        => 'mysql:host=localhost;dbname=mukuru',
+            'dsn'        => 'mysql:host=localhost;dbname=availio',
             'username'   => 'root',
-            //'password'   => 'r00tdb',
-            'password'   => '',
+            'password'   => 'root',
             'persistent' => FALSE,
         ),
         /**

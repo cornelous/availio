@@ -111,7 +111,6 @@ Route::set('logout', 'logout')
         'action'     => 'logout',
     ));
 
-
 Route::set('signup', 'signup')
     ->defaults(array(
         'directory' => 'user',
@@ -147,7 +146,6 @@ Route::set('verify', 'verify')
         'action'     => 'verify',
     ));
 
-
 Route::set('profile', 'profile/<id>(/<optional>)', array(
     'id' => '[0-9]+',
     'optional' => '.*'))
@@ -157,10 +155,15 @@ Route::set('profile', 'profile/<id>(/<optional>)', array(
         'action'     => 'index',
     ));
 
+//Route::set('default', '(<controller>(/<action>(/<id>)))')
+//    ->defaults(array(
+//        'controller' => 'welcome',
+//        'action'     => 'index',
+//    ));
 
 Route::set('default', '(<controller>(/<action>(/<id>)))')
     ->defaults(array(
-        'controller' => 'welcome',
+        'controller' => 'property',
         'action'     => 'index',
     ));
 

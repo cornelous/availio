@@ -5,7 +5,6 @@ class Controller_User_Account extends Controller_Application {
     //if time permits before I send Deon, develop a custom mailer class to use across project!!!!
     protected function emailer($email, $namesurname = '', $msgheading, $msgbody1 = '', $msgbody2)
     {
-
         $to = $email;
         $subject = "Mukuru Assignment | {$msgheading}";
         $message = "<h1>Mukuru Assignment | {$msgheading} </h1>";
@@ -22,58 +21,52 @@ class Controller_User_Account extends Controller_Application {
     /*
      * Handles logins for both normal and admin users
      */
-//    public function action_login()
-//    {
-//        $referrer = Request::$referrer;
-//
-//        $this->template->view = View::factory('account/login')
-//            ->bind('user', $user)
-//            ->bind('referrer', $referrer)
-//            ->bind('errors', $errors);
-//
-//
-//        if ($_POST)
-//        {
-//            $username = $_POST['username'];
-//            $password = $_POST['password'];
-//
-//            $user = new Model_User;
-//            $loggeduser = $user->login($username, $password);
-//
-//            $admin = new Model_Administrator;
-//            $loggedadmin = $admin->login ($username,$password);
-//
-//            if ($loggeduser) {
-//                foreach ($loggeduser as $user) {
-//                    $session = Session::instance();
-//                    $session->set('username', $user['username']);
-//                }
-//                //redirect to user profile i.e login as user
-//                $this->request->redirect('user_profile/index/');
-//            }
-//            elseif ($loggedadmin) {
-//                foreach ($loggedadmin as $admin) {
-//                    $session = Session::instance();
-//                    $session->set('username', $admin['username']);
-//                }
-//                //redirect to user profile i.e login as admin
-//                $this->request->redirect('welcome');
-//            }
-//
-//            if (!$loggeduser && !$loggedadmin) {
-//                $invalidlogins = true;
-//                $this->template->view = View::factory('account/login')
-//                    ->bind('user', $user)
-//                    ->bind('referrer', $referrer)
-//                    ->bind('errors', $invalidlogins);
-//
-//            }
-//
-//        }
-//    }
+    public function action_login()
+    {
+        $referrer = Request::$referrer;
 
-    public function action_login(){
-        $this->request->redirect('user_profile/index/');
+        $this->template->view = View::factory('account/login')
+            ->bind('user', $user)
+            ->bind('referrer', $referrer)
+            ->bind('errors', $errors);
+
+
+        if ($_POST)
+        {
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+
+            $user = new Model_User;
+            $loggeduser = $user->login($username, $password);
+
+            $admin = new Model_Administrator;
+            $loggedadmin = $admin->login ($username,$password);
+
+            if ($loggeduser) {
+                foreach ($loggeduser as $user) {
+                    $session = Session::instance();
+                    $session->set('username', $user['username']);
+                }
+                //redirect to user profile i.e login as user
+                $this->request->redirect('user_profile/index/');
+            }
+            elseif ($loggedadmin) {
+                foreach ($loggedadmin as $admin) {
+                    $session = Session::instance();
+                    $session->set('username', $admin['username']);
+                }
+                //redirect to user profile i.e login as admin
+                $this->request->redirect('welcome');
+            }
+
+            if (!$loggeduser && !$loggedadmin) {
+                $invalidlogins = true;
+                $this->template->view = View::factory('account/login')
+                    ->bind('user', $user)
+                    ->bind('referrer', $referrer)
+                    ->bind('errors', $invalidlogins);
+            }
+        }
     }
 
     public function action_logout()
@@ -87,7 +80,6 @@ class Controller_User_Account extends Controller_Application {
 
     public function action_signup()
     {
-
         $countries = new Model_Country();
         $country = $countries->get_all();
 
