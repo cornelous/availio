@@ -39,8 +39,20 @@ class Controller_Property extends Controller_Application {
         //redirect back to properties list
         $viewlet = View::factory('property/add_');
         $view = View::factory('property/add')
+            //->bind('errors', $errors)
             ->bind('viewlet', $viewlet);
         $this->template->view = $view;
+
+        if ($_POST)
+        {
+
+            $externalid = $_POST['externalid'];
+            echo $externalid;
+
+        }
+
+
+
     }
 
 
