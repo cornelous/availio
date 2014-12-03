@@ -49,5 +49,5 @@
 </div>
 <br>
 
-<?php echo HTML::anchor('addproperty', 'Add Property');?>
+<?php echo HTML::anchor('addproperty', 'Add Property', array('class'=>'property'));?>
 
