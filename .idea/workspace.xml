@@ -35,7 +35,7 @@
       <file leaf-file-name="bootstrap.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="7" selection-start="4367" selection-end="4367" vertical-scroll-proportion="0.07960199" vertical-offset="2142" max-vertical-offset="2790">
+            <state line="157" column="20" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.4278607" vertical-offset="2097" max-vertical-offset="2790">
               <folding />
             </state>
           </provider>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/user/account.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/property.php" />
-        <option value="$PROJECT_DIR$/application/bootstrap.php" />
         <option value="$PROJECT_DIR$/application/views/property.php" />
+        <option value="$PROJECT_DIR$/application/bootstrap.php" />
       </list>
     </option>
   </component>
@@ -768,7 +768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="7" selection-start="4367" selection-end="4367" vertical-scroll-proportion="0.07960199" vertical-offset="2142" max-vertical-offset="2790">
+        <state line="157" column="20" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.4278607" vertical-offset="2097" max-vertical-offset="2790">
           <folding />
         </state>
       </provider>

@@ -155,7 +155,7 @@ Route::set('profile', 'profile/<id>(/<optional>)', array(
         'action'     => 'index',
     ));
 
-Route::set('default', '(<controller>(/<action>(/<id>)))')
+Route::set('property', '(<controller>(/<action>(/<id>)))')
     ->defaults(array(
         'controller' => 'property',
         'action'     => 'index',
