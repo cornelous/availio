@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="21" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.5970149" vertical-offset="540" max-vertical-offset="2790">
+            <state line="60" column="21" selection-start="1946" selection-end="1946" vertical-scroll-proportion="-15.0" vertical-offset="540" max-vertical-offset="2790">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="555">
+            <state line="18" column="14" selection-start="614" selection-end="614" vertical-scroll-proportion="0.4477612" vertical-offset="0" max-vertical-offset="603">
               <folding />
             </state>
           </provider>
@@ -120,7 +120,6 @@
         <option value="$PROJECT_DIR$/media/css/admin.css" />
         <option value="$PROJECT_DIR$/media/css/styles.css" />
         <option value="$PROJECT_DIR$/application/views/template.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/views/account/login.php" />
         <option value="$PROJECT_DIR$/scripts/availio.sql" />
         <option value="$PROJECT_DIR$/application/classes/controller/property.php" />
@@ -130,6 +129,7 @@
         <option value="$PROJECT_DIR$/application/classes/controller/user/account.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/welcome.php" />
         <option value="$PROJECT_DIR$/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
       </list>
     </option>
   </component>
@@ -700,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="660">
@@ -737,7 +730,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="21" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.5970149" vertical-offset="540" max-vertical-offset="2790">
+        <state line="60" column="21" selection-start="1946" selection-end="1946" vertical-scroll-proportion="-15.0" vertical-offset="540" max-vertical-offset="2790">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="14" selection-start="614" selection-end="614" vertical-scroll-proportion="0.4477612" vertical-offset="0" max-vertical-offset="603">
           <folding />
         </state>
       </provider>

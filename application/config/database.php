@@ -16,7 +16,7 @@ return array
              */
             'dsn'        => 'mysql:host=localhost;dbname=availio',
             'username'   => 'root',
-            'password'   => 'root',
+            //'password'   => 'root',
             'persistent' => FALSE,
         ),
         /**
