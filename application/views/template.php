@@ -122,7 +122,7 @@
                 var imgLoading='<img src=\"media/icons/ajax-loader.gif\">';
                 //	ajax call to change state
                 var myHTMLRequest = new Request({
-                    url:'../ac-includes/ajax/update-state.ajax.php',
+                    url:'..media/ac-includes/ajax/update-state.ajax.php',
                     method:'post',
                     async:false,
                     data: {
