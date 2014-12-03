@@ -19,7 +19,7 @@ class Controller_Property extends Controller_Application {
         $pagination = Pagination::factory(array(
             'total_items'
             => $property_count,
-            'items_per_page' => 3,
+            'items_per_page' => 1,
         ));
         $pager_links = $pagination->render();
 

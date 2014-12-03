@@ -56,7 +56,7 @@ class Controller_User_Account extends Controller_Application {
                     $session->set('username', $admin['username']);
                 }
                 //redirect to user profile i.e login as admin
-                $this->request->redirect('welcome');
+                $this->request->redirect('property');
             }
 
             if (!$loggeduser && !$loggedadmin) {
