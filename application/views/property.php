@@ -4,7 +4,6 @@
         <th>External Id</th>
         <th>Property Name</th>
         <th>Property Type</th>
-        <th>Country</th>
         <th>Bedrooms</th>
         <th>Sleeps</th>
         <th>Province</th>
@@ -26,8 +25,6 @@
         <td><?php echo $property['city']; ?></td>
         <td><?php echo $property['suburb'] ?></td>
         <td><?php echo $property['url'] ?></td>
-        <td>
-        </td>
     </tr>
     <?php else: ?>
         <tr class = "alt">
@@ -41,8 +38,6 @@
             <td><?php echo $property['city']; ?></td>
             <td><?php echo $property['suburb'] ?></td>
             <td><?php echo $property['url'] ?></td>
-            <td>
-            </td>
         </tr>
      <?php endif; ?>
     <?php $count++;?>
