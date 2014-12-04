@@ -50,20 +50,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="property.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="property.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="46" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.66101694" vertical-offset="90" max-vertical-offset="1290">
+            <state line="15" column="11" selection-start="428" selection-end="428" vertical-scroll-proportion="-5.625" vertical-offset="90" max-vertical-offset="1290">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_list.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_list.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/property/_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="885">
-              <folding />
+            <state line="74" column="42" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.59322035" vertical-offset="760" max-vertical-offset="3735">
+              <folding>
+                <element signature="n#style#0;n#td#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#8;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +81,15 @@
         <entry file="file://$PROJECT_DIR$/application/views/property/add.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="13" selection-start="630" selection-end="630" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="810">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_add.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/property/_add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="29.791666" vertical-offset="715" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -132,6 +150,7 @@
         <option value="$PROJECT_DIR$/application/classes/model/property.php" />
         <option value="$PROJECT_DIR$/application/views/property.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/property.php" />
+        <option value="$PROJECT_DIR$/application/views/property/_list.php" />
       </list>
     </option>
   </component>
@@ -781,6 +800,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="428" selection-end="428" vertical-scroll-proportion="-5.625" vertical-offset="90" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/property/add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="630" selection-end="630" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="810">
@@ -788,17 +814,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/property/_list.php">
+    <entry file="file://$PROJECT_DIR$/application/views/property/_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="29.791666" vertical-offset="715" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
+    <entry file="file://$PROJECT_DIR$/application/views/property/_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="46" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.66101694" vertical-offset="90" max-vertical-offset="1290">
-          <folding />
+        <state line="74" column="42" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.59322035" vertical-offset="760" max-vertical-offset="3735">
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#8;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
