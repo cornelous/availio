@@ -22,6 +22,12 @@
                             <div id="menuuli">Properties</div>
                         </li>
                     </a>
+                    <a href="#" title="Bookings">
+                        <li class="active">
+                            <div id="Bookings"></div>
+                            <div id="menuuli">Bookings</div>
+                        </li>
+                    </a>
                 </ul>
                 <ul id="menuu_icons">
                     <a href="#" title="Logout">
