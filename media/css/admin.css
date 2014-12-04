@@ -3,6 +3,7 @@ html,body{
 	padding:0px;
 	}
 body{
+	background: #00aeef;
 	color:#666666;
 	font-size: 0.8em;
 	font-family: trebuchet MS, tahoma, verdana, arial, sans-serif;
@@ -429,9 +430,6 @@ p{
 	font-size:1.2em;
 	}
 
-#page_bookings{
-    background: #ffffff;
-}
 #page_install #contents ul{
 	color:#CCC;
 	font-size:1.3em;

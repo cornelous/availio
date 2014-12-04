@@ -26,9 +26,11 @@ class Controller_Property extends Controller_Application {
         $properties = $property->get_all($pagination->items_per_page,
             $pagination->offset);
 
-        $view = View::factory('property')
+        $viewlet = View::factory('property/_list');
+        $view = View::factory('property/side')
             ->bind('properties', $properties)
-            ->bind('pager_links', $pager_links);
+            ->bind('pager_links', $pager_links)
+            ->bind('viewlet', $viewlet);
 
         $this->template->view = $view;
 	}
@@ -37,8 +39,8 @@ class Controller_Property extends Controller_Application {
     {
         //add new property
         //redirect back to properties list
-        $viewlet = View::factory('property/add_');
-        $view = View::factory('property/add')
+        $viewlet = View::factory('property/_add');
+        $view = View::factory('property/side')
             //->bind('errors', $errors)
             ->bind('viewlet', $viewlet);
         $this->template->view = $view;
@@ -62,6 +64,7 @@ class Controller_Property extends Controller_Application {
 
             if ($newproperty){
                 echo "Record Added!";
+                //redirect to property listing with success message
             }
 
 
