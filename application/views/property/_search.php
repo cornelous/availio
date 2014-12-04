@@ -103,9 +103,10 @@
 </div>
 
 <?php
+header('Content-Type: application/json');
 $est = array();
 foreach($curlresponse as $myObj){
-    $est[] = $myObj["bb"];
+    $est[] = $myObj['bb'];
 }
 
 $numOfest= count($est);
