@@ -86,13 +86,10 @@ class Controller_Property extends Controller_Application {
 
     public function action_search()
     {
-        header('Content-Type: application/json');
         $nbid = '533';
         $pwd = 'jdawgs';
 
-        if ($_POST){
-
-            header('Content-Type: application/json');
+        if ($_POST){           
             //*** TO DO: Make these configurable
             $nbid = '533';
             $pwd = 'jdawgs';
