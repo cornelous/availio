@@ -53,12 +53,11 @@
       <file leaf-file-name="_list.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/property/_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="53" selection-start="2860" selection-end="2860" vertical-scroll-proportion="0.84745765" vertical-offset="640" max-vertical-offset="2145">
+            <state line="70" column="36" selection-start="2519" selection-end="2519" vertical-scroll-proportion="0.69491524" vertical-offset="640" max-vertical-offset="2145">
               <folding>
                 <element signature="n#style#0;n#td#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -825,12 +824,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/property/_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="53" selection-start="2860" selection-end="2860" vertical-scroll-proportion="0.84745765" vertical-offset="640" max-vertical-offset="2145">
+        <state line="70" column="36" selection-start="2519" selection-end="2519" vertical-scroll-proportion="0.69491524" vertical-offset="640" max-vertical-offset="2145">
           <folding>
             <element signature="n#style#0;n#td#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#!!top" expanded="true" />
