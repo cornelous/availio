@@ -103,6 +103,8 @@
 </div>
 
 <?php
+var_dump($est);
+
     for ($i =0; $i <= $numOfest; $i++)
     {
         foreach ($est as $key => $hotel){
