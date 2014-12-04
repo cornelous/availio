@@ -67,7 +67,7 @@
         </div>
 
         <div class="pagination">
-            <?php var_dump($pager_links); ?>
+            <?php echo $pager_links; ?>
         </div>
 
         <!-- END ADD FORM -->
