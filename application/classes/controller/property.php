@@ -26,9 +26,10 @@ class Controller_Property extends Controller_Application {
         $properties = $property->get_all($pagination->items_per_page,
             $pagination->offset);
 
-        $viewlet = View::factory('property/_list');
+        $viewlet = View::factory('property/_list')
+            ->bind('properties', $properties);
+        
         $view = View::factory('property/side')
-            ->bind('properties', $properties)
             ->bind('pager_links', $pager_links)
             ->bind('viewlet', $viewlet);
 
