@@ -106,6 +106,7 @@
 <?php
 var_dump($est);
 
+if (!is_null($est)){
     for ($i =0; $i <= $numOfest; $i++)
     {
         foreach ($est as $key => $hotel){
@@ -129,6 +130,7 @@ var_dump($est);
             }
         }
     }
+}
 ?>
 
 <div id="the_months">
