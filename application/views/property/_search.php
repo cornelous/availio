@@ -102,7 +102,7 @@
 <!-- END LOGIN FORM -->
 </div>
 
-<?php echo $curlresponse; ?>
+<?php var_dump($curlresponse); ?>
 
 <div id="the_months">
     <div id="12_2014" class="cal_month load_cal">
