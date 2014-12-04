@@ -73,10 +73,10 @@
         <tr>
 
             <?php $fromdateattributes = array('placeholder'=>'From Date', 'name'=>'date-picker-input-1', 'id'=>'date-picker-input-1', 'class'=>'my_date date-pickers-bookings-filter'); ?>
-
+            <?php $todateattributes = array('placeholder'=>'To Date', 'name'=>'date-picker-input-2', 'id'=>'date-picker-input-2', 'class'=>'my_date date-pickers-bookings-filter'); ?>
 
             <td style="width:125px;"><?php echo Form::input('date-picker-input-1','', $fromdateattributes); ?></td>
-            <td style="width:125px;"><input type="text" Placeholder="To Date" id="date-picker-input-2" class="my_date date-pickers-bookings-filter" name="to_date" ></td>
+            <td style="width:125px;"><?php echo Form::input('date-picker-input-2','', $todateattributes); ?></td>
             <td style="width:140px;"><select class="select select-bookings-filter" name="property_type">
                     <option value="">Select A Property Type</option>
                     <option value="Any">Any</option>
