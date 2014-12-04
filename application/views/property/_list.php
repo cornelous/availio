@@ -70,6 +70,7 @@
                 <td style="width:100px;">Property Name</td>
                 <td style="width:80px;">Property Type</td>
                 <td style="width:30px;">Bedrooms</td>
+                <td style="width:30px;">Sleeps</td>
                 <td style="width:100px;">Province</td>
                 <td style="width:100px;">City</td>
                 <td style="width:100px;">Website</td>
