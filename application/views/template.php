@@ -44,7 +44,7 @@
                 dateFormat: 'yy-mm-dd',
                 showOtherMonths: true,
                 showOn: 'both',
-                buttonImage: 'media/css/images/cal_logo.png'
+                buttonImage: base_url + "media/css/images/cal_logo.png"
             })
 
                 .datepicker('widget').wrap('<div class="ll-skin-nigran"/>');
