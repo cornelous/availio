@@ -89,7 +89,7 @@ class Controller_Property extends Controller_Application {
         $nbid = '533';
         $pwd = 'jdawgs';
 
-        if ($_POST){           
+        if ($_POST){
             //*** TO DO: Make these configurable
             $nbid = '533';
             $pwd = 'jdawgs';
