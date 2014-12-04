@@ -6,7 +6,7 @@
             <div class="float_l"><h1>Properties</h1></div>
             <div class="float_r"><br/>
                 <?php $addnewattributes = array('id'=>'add_prop') ?>
-                <?php echo HTML::anchor('property/add', 'Add New Property');?>
+                <?php echo HTML::anchor('add_prop', 'Add New Property', $addnewattributes);?>
             </div>
             <div class="clear"></div>
         </div>
