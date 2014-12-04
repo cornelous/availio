@@ -77,7 +77,13 @@ class Controller_Property extends Controller_Application {
         $view = View::factory('property/side')
             ->bind('viewlet', $viewlet);
         $this->template->view = $view;
+
+        if ($_POST){
+            echo "We are making headway";
+        }
+
     }
+
 
 
 } // End Property

@@ -93,8 +93,8 @@
                 </select>
             </td>
             <td style="width:140px;">
-                <?php $searchattributes = array('id'=>'add_prop') ?>
-                <?php echo HTML::anchor('property/add', 'Search', $searchattributes);?>
+                <?php $searchattributes = array('type' => 'submit', 'id'=>'btn', 'style'=>'width:100px'); ?>
+                <?php echo Form::input('submit', 'Search', $searchattributes); ?>
             </td>
         </tr>
     </table>
