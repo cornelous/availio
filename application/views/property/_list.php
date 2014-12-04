@@ -73,6 +73,7 @@
                 <td style="width:30px;">Sleeps</td>
                 <td style="width:100px;">Province</td>
                 <td style="width:100px;">City</td>
+                <td style="width:100px;">Suburb</td>
                 <td style="width:100px;">Website</td>
                 <td class="options">Options</td>
             </tr>
