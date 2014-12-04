@@ -53,7 +53,7 @@
       <file leaf-file-name="property.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="8" selection-start="920" selection-end="920" vertical-scroll-proportion="0.6101695" vertical-offset="90" max-vertical-offset="1290">
+            <state line="32" column="46" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.66101694" vertical-offset="90" max-vertical-offset="1290">
               <folding />
             </state>
           </provider>
@@ -797,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="920" selection-end="920" vertical-scroll-proportion="0.6101695" vertical-offset="90" max-vertical-offset="1290">
+        <state line="32" column="46" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.66101694" vertical-offset="90" max-vertical-offset="1290">
           <folding />
         </state>
       </provider>

@@ -27,10 +27,10 @@ class Controller_Property extends Controller_Application {
             $pagination->offset);
 
         $viewlet = View::factory('property/_list')
-            ->bind('properties', $properties);
-        
+            ->bind('properties', $properties)
+            ->bind('pager_links', $pager_links);
+
         $view = View::factory('property/side')
-            ->bind('pager_links', $pager_links)
             ->bind('viewlet', $viewlet);
 
         $this->template->view = $view;
