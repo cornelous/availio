@@ -103,7 +103,7 @@
 </div>
 
 <?php
-if (is)array($curlresponse)
+if (is_array($curlresponse))
 {
     print_r($curlresponse);
 }
