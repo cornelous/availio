@@ -1,4 +1,3 @@
-<?php header('Content-Type: application/json'); ?>
 <!-- START CONTENT -->
 <div class="resp-tabs-container">
 <div id="contents">
