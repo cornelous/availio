@@ -103,11 +103,18 @@
 </div>
 
 <?php
-var_dump($est);
 
-//if (!is_null($est)){
-//    for ($i =0; $i <= $numOfest; $i++)
-//    {
+echo ($curlresponse);
+//    header('Content-Type: application/json');
+//
+//    $est = array();
+//    foreach($curlresponse as $myObj){
+//        $est[] = $myObj['bb'];
+//    }
+//
+//    $numOfest= count($est);
+//
+//    for ($i =0; $i <= $numOfest; $i++){
 //        foreach ($est as $key => $hotel){
 //            if (!is_null($hotel[$i]['bbid'])){
 //                echo "{$hotel[$i]['bbid']} - {$hotel[$i]['name']}\n";
@@ -129,7 +136,6 @@ var_dump($est);
 //            }
 //        }
 //    }
-//}
 ?>
 
 <div id="the_months">

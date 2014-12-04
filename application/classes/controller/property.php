@@ -86,10 +86,13 @@ class Controller_Property extends Controller_Application {
 
     public function action_search()
     {
+        header('Content-Type: application/json');
         $nbid = '533';
         $pwd = 'jdawgs';
 
         if ($_POST){
+
+            header('Content-Type: application/json');
             //*** TO DO: Make these configurable
             $nbid = '533';
             $pwd = 'jdawgs';
@@ -120,21 +123,10 @@ class Controller_Property extends Controller_Application {
             $response = $this->sendPostData($url_send, $data);
             $curlresponse = json_decode($response, true);
 
-
-
-            $est = array();
-            foreach($curlresponse as $myObj){
-                $est[] = $myObj['bb'];
-            }
-
-            $numOfest= count($est);
-
         }
 
         $viewlet = View::factory('property/_search')
-            ->bind('est', $est)
-            ->bind('numOfest', $numOfest);
-
+            ->bind('curlresponse', $curlresponse);
         $view = View::factory('property/side')
             ->bind('viewlet', $viewlet);
         $this->template->view = $view;
