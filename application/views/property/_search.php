@@ -108,7 +108,7 @@ print_r($curlresponse);
 
     $est = array();
     foreach($curlresponse as $myObj){
-        $est[] = $myObj[0]['bb'];
+        $est[] = $myObj[2]['bb'];
     }
 
     $numOfest= count($est);
