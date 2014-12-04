@@ -36,7 +36,7 @@ h2.resp-accordion {
 .resp-tab-active {
     border: 1px solid #c1c1c1;
     border-bottom: none;
-    margin-bottom: -1px !important;
+    /* margin-bottom: -1px !important; */
     padding: 12px 14px 14px 14px !important;
 }
 
@@ -102,13 +102,13 @@ h2.resp-tab-active {
 }
 
 .resp-vtabs li.resp-tab-active {
-    border: 1px solid #c1c1c1;
+    border: 0px solid #c1c1c1;
     border-right: none;
     background-color: #fff;
     position: relative;
     z-index: 1;
     margin-right: -1px !important;
-    padding: 14px 15px 15px 14px !important;
+    padding: 15px 15px 15px 15px !important;
 }
 
 .resp-arrow {
