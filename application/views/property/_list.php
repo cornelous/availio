@@ -65,16 +65,14 @@
             <thead class="table-heading">
             <tr>
                 <td >&nbsp;</td>
-                <td style="width:40px;text-align:center !important;" >Availio ID</td>
-                <td style="width:40px;">External ID</td>
+                <td style="width:65px;text-align:center !important;" >Availio ID</td>
+                <td style="width:65px;">External ID</td>
                 <td style="width:100px;">Property Name</td>
-                <td style="width:60px;">Property Type</td>
+                <td style="width:80px;">Property Type</td>
                 <td style="width:30px;">Bedrooms</td>
                 <td style="width:100px;">Province</td>
                 <td style="width:100px;">City</td>
                 <td style="width:100px;">Website</td>
-                <td>Calendar</td>
-                <td class="states">State</td>
                 <td class="options">Options</td>
             </tr>
             </thead>
@@ -209,16 +207,16 @@
                 <!--<td class="center"><span class="update_state" id="state_71" rel="bookings_items" state="1" field="state" title="Click to update the Item State"><img src="icons/icon_tick.png" alt="tick"></a></td>-->
                 <td class="center"><a href="#"><img alt="tick" src="icons/icon_tick.png"></a> </td>
                 <td class="options">
-                    <a href="#" title="Edit this item"><img src="icons/icon_edit_s.png" alt="edit"></a>
-                    <a href="#" title="See calendar for this item"><img src="icons/icon_calendar_s.png" alt="cal"></a>
-                    <a href="#" title="Delete this item"><img src="icons/icon_trash_s.png" alt="delete"></a>
+                    <a href="#" title="Edit this item"><img src="<?php echo URL::base(); ?>media/icons/icon_edit_s.png" alt="edit"></a>
+                    <a href="#" title="See calendar for this item"><img src="<?php echo URL::base(); ?>media/icons/icon_calendar_s.png" alt="cal"></a>
+                    <a href="#" title="Delete this item"><img src="<?php echo URL::base(); ?>media/icons/icon_trash_s.png" alt="delete"></a>
                 </td>
             </tr>
 
             </tbody>
         </table>
         <div class="properties-drag-instructions">
-            <img src="images/i.png"><div class="note">Drag the items to change the order</div>
+            <img src="<?php echo URL::base(); ?>media/images/i.png"><div class="note">Drag the items to change the order</div>
         </div>
 
         <div class="pagination">
