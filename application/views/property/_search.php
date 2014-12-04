@@ -86,7 +86,7 @@
                     <option value="Any">Any</option>
                 </select>
             </td>
-            <td>
+            <td style="width:140px;">
                 <?php $searchattributes = array('id'=>'add_prop') ?>
                 <?php echo HTML::anchor('property/add', 'Search', $searchattributes);?>
             </td>

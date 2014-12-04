@@ -62,7 +62,7 @@
       <file leaf-file-name="_search.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/property/_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="6" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.48305085" vertical-offset="1125" max-vertical-offset="4380">
+            <state line="94" column="5" selection-start="3891" selection-end="3892" vertical-scroll-proportion="0.63559324" vertical-offset="1035" max-vertical-offset="4380">
               <folding>
                 <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -72,6 +72,7 @@
                 <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#4;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#4;n#ul#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -940,7 +941,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/property/_search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="6" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.48305085" vertical-offset="1125" max-vertical-offset="4380">
+        <state line="94" column="5" selection-start="3891" selection-end="3892" vertical-scroll-proportion="0.63559324" vertical-offset="1035" max-vertical-offset="4380">
           <folding>
             <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -950,6 +951,7 @@
             <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#4;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#4;n#ul#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
