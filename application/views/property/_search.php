@@ -67,9 +67,15 @@
 </div>
 
 <div class="search-filter">
+<!-- START SEARCH FORM -->
+<?php echo Form::open(); ?>
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table-bookings-filter">
         <tr>
-            <td style="width:125px;"><input type="text" Placeholder="From Date" id="date-picker-input-1" class="my_date date-pickers-bookings-filter" name="from_date" ></td>
+
+            <?php $fromdateattributes = array('placeholder'=>'From Date', 'name'=>'date-picker-input-1', 'class'=>'my_date date-pickers-bookings-filter'); ?>
+
+
+            <td style="width:125px;"><?php echo Form::input('date-picker-input-1', $fromdateattributes); ?></td>
             <td style="width:125px;"><input type="text" Placeholder="To Date" id="date-picker-input-2" class="my_date date-pickers-bookings-filter" name="to_date" ></td>
             <td style="width:140px;"><select class="select select-bookings-filter" name="property_type">
                     <option value="">Select A Property Type</option>
@@ -92,6 +98,8 @@
             </td>
         </tr>
     </table>
+<?php echo Form::close(); ?>
+<!-- END LOGIN FORM -->
 </div>
 
 <div id="the_months">
