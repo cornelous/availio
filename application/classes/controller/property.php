@@ -68,12 +68,15 @@ class Controller_Property extends Controller_Application {
                 //redirect to property listing with success message
             }
 
-
-
         }
 
+    }
 
-
+    public function action_search(){
+        $viewlet = View::factory('property/_search');
+        $view = View::factory('property/side')
+            ->bind('viewlet', $viewlet);
+        $this->template->view = $view;
     }
 
 
