@@ -27,11 +27,11 @@ class Model_Property {
             ->as_array();
     }
 
-    public function add($username, $password, $namesurname, $address,$city,$country, $email, $phonenumber,$image, $verified)
+    public function add($externalid,$availioid,$propertyname,$propertytype,$bedrooms,$sleeps,$province,$city,$suburb,$url)
     {
-        $data = array('id', 'username', 'password', 'namesurname','address', 'city', 'country', 'email', 'phonenumber', 'image', 'verified', 'active');
+        $data = array('availioid', 'externalid', 'propertyname', 'propertytype','bedrooms', 'sleeps', 'province', 'city', 'suburb', 'url');
         return DB::insert($this->_table, $data)
-            ->values(array('', $username, $password, $namesurname,$address, $city, $country, $email,$phonenumber, $image, $verified, 0 ))
+            ->values(array($externalid,$availioid,$propertyname,$propertytype,$bedrooms,$sleeps,$province,$city,$suburb,$url))
             ->execute();
     }
 

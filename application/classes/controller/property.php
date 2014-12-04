@@ -55,18 +55,15 @@ class Controller_Property extends Controller_Application {
             $province = $_POST['province'];
             $city = $_POST['city'];
             $suburb = $_POST['suburb'];
-            $url = $_POST['url'];             
+            $url = $_POST['url'];
 
-            echo $externalid.'</br>';
-            echo $availioid.'</br>';
-            echo $propertyname.'</br>';
-            echo $propertytype.'</br>';
-            echo $bedrooms.'</br>';
-            echo $sleeps.'</br>';
-            echo $province.'</br>';
-            echo $city.'</br>';
-            echo $suburb.'</br>';
-            echo $url.'</br>';
+           $property = new Model_Property;
+           $newproperty = $property->add($externalid,$availioid,$propertyname,$propertytype,$bedrooms,$sleeps,$province,$city,$suburb,$url);
+
+            if ($newproperty){
+                echo "Record Added!";
+            }
+
 
 
         }
