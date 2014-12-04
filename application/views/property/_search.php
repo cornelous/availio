@@ -103,38 +103,29 @@
 </div>
 
 <?php
-header('Content-Type: application/json');
-$est = array();
-if (!is_null($curlresponse)){
-        foreach($curlresponse as $myObj){
-            $est[] = $myObj['bb'];
-        }
-
-        $numOfest= count($est);
-
-        for ($i =0; $i <= $numOfest; $i++){
-            foreach ($est as $key => $hotel){
-                if (!is_null($hotel[$i]['bbid'])){
-                    echo "{$hotel[$i]['bbid']} - {$hotel[$i]['name']}\n";
-                }
-                $rooms = array();
-                $rooms[] = $hotel[$i]['roomtypes'];
+    for ($i =0; $i <= $numOfest; $i++)
+    {
+        foreach ($est as $key => $hotel){
+            if (!is_null($hotel[$i]['bbid'])){
+                echo "{$hotel[$i]['bbid']} - {$hotel[$i]['name']}\n";
             }
-            //print_r($rooms);
-            $numOfrooms = count($rooms[0]);
-            //echo "{$numOfrooms}\n";
+            $rooms = array();
+            $rooms[] = $hotel[$i]['roomtypes'];
+        }
+        //print_r($rooms);
+        $numOfrooms = count($rooms[0]);
+        //echo "{$numOfrooms}\n";
 
-            //print_r($rooms);
-            for ($idx =0; $idx <= $numOfrooms; $idx++){
-                foreach($rooms as $room){
-                    echo "{$room[$idx]['roomtypename']}\n";
-                    echo "{$room[$idx]['mealplans'][0]['rates']['pax1']} \n";
-                    echo "{$room[$idx]['mealplans'][0]['rates']['pax2']}";
-                    //for each room show daily rates
-                }
+        //print_r($rooms);
+        for ($idx =0; $idx <= $numOfrooms; $idx++){
+            foreach($rooms as $room){
+                echo "{$room[$idx]['roomtypename']}\n";
+                echo "{$room[$idx]['mealplans'][0]['rates']['pax1']} \n";
+                echo "{$room[$idx]['mealplans'][0]['rates']['pax2']}";
+                //for each room show daily rates
             }
         }
-}
+    }
 ?>
 
 <div id="the_months">

@@ -123,10 +123,19 @@ class Controller_Property extends Controller_Application {
             $response = $this->sendPostData($url_send, $data);
             $curlresponse = json_decode($response, true);
 
+            $est = array();
+            foreach($curlresponse as $myObj){
+                $est[] = $myObj['bb'];
+            }
+
+            $numOfest= count($est);
+
         }
 
         $viewlet = View::factory('property/_search')
-            ->bind('curlresponse', $curlresponse);
+            ->bind('est', $est)
+            ->bind('numOfest', $numOfest);
+
         $view = View::factory('property/side')
             ->bind('viewlet', $viewlet);
         $this->template->view = $view;
