@@ -30,12 +30,13 @@
 
     <script>
         $(function() {
+            var base_url = "http://cornelo.us/";
             $( "#date-picker-input-1" ).datepicker({
                 inline: true,
                 dateFormat: 'yy-mm-dd',
                 showOtherMonths: true,
                 showOn: 'both',
-                buttonImage: 'media/css/images/cal_logo.png'
+                buttonImage: base_url + "media/css/images/cal_logo.png"
             })
 
             $( "#date-picker-input-2" ).datepicker({
