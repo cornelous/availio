@@ -104,9 +104,8 @@
 
 <?php
 
-var_dump($curlresponse);
-//    header('Content-Type: application/json');
-//
+print_r($curlresponse);
+
 //    $est = array();
 //    foreach($curlresponse as $myObj){
 //        $est[] = $myObj['bb'];
