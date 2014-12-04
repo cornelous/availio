@@ -15,7 +15,7 @@
     <?php foreach ($properties as $property) : ?>
     <?php if ($count %2 == 0): ?>
     <tr>
-        <td><?php echo $property['availid']; ?></td>
+        <td><?php echo $property['availioid']; ?></td>
         <td><?php echo $property['externalid']; ?></td>
         <td><?php echo $property['propertyname']; ?></td>
         <td><?php echo $property['propertytype']; ?></td>
@@ -28,7 +28,7 @@
     </tr>
     <?php else: ?>
         <tr class = "alt">
-            <td><?php echo $property['availid']; ?></td>
+            <td><?php echo $property['availioid']; ?></td>
             <td><?php echo $property['externalid']; ?></td>
             <td><?php echo $property['propertyname']; ?></td>
             <td><?php echo $property['propertytype']; ?></td>
