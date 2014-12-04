@@ -121,8 +121,7 @@ class Controller_Property extends Controller_Application {
             $data = $json_str;
 
             $response = $this->sendPostData($url_send, $data);
-            //$curlresponse = json_decode($response, true);
-            $curlresponse = $url_send.$data;
+            $curlresponse = json_decode($response, true);
 
         }
 
