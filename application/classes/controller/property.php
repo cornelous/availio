@@ -120,7 +120,7 @@ class Controller_Property extends Controller_Application {
             $url_send ="http://www.nightsbridge.co.za/bridge/jsonapi/4.0";
             $data = $json_str;
 
-            $response = sendPostData($url_send, $data);
+            $response = $this->sendPostData($url_send, $data);
             $curlresponse = json_decode($response, true);
 
         }
