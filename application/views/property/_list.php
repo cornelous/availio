@@ -68,7 +68,7 @@
                 <td style="width:65px;text-align:center !important;" >Availio ID</td>
                 <td style="width:65px;">External ID</td>
                 <td style="width:100px;">Property Name</td>
-                <td style="width:100px;">Property Type</td>
+                <td style="width:120px;">Property Type</td>
                 <td style="width:30px;">Bedrooms</td>
                 <td style="width:30px;">Sleeps</td>
                 <td style="width:100px;">Province</td>
