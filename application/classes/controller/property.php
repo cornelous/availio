@@ -73,8 +73,14 @@ class Controller_Property extends Controller_Application {
     }
 
     public function action_search(){
+
+        if ($_POST){
+            $curlresponse = "Awesome Response";
+        }
+
         $viewlet = View::factory('property/_search');
         $view = View::factory('property/side')
+            ->bind('curlresponse', $curlresponse)
             ->bind('viewlet', $viewlet);
         $this->template->view = $view;
 

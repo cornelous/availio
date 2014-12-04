@@ -102,6 +102,8 @@
 <!-- END LOGIN FORM -->
 </div>
 
+<?php echo $curlresponse; ?>
+
 <div id="the_months">
     <div id="12_2014" class="cal_month load_cal">
         <div id="12_2014" class="cal_title">December 2014</div>
