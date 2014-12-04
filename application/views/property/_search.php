@@ -72,7 +72,7 @@
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table-bookings-filter">
         <tr>
 
-            <?php $fromdateattributes = array('placeholder'=>'From Date', 'name'=>'date-picker-input-1', 'class'=>'my_date date-pickers-bookings-filter'); ?>
+            <?php $fromdateattributes = array('placeholder'=>'From Date', 'name'=>'date-picker-input-1', 'id'=>'date-picker-input-1', 'class'=>'my_date date-pickers-bookings-filter'); ?>
 
 
             <td style="width:125px;"><?php echo Form::input('date-picker-input-1','', $fromdateattributes); ?></td>
