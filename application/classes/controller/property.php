@@ -121,12 +121,12 @@ class Controller_Property extends Controller_Application {
             $data = $json_str;
 
             $response = $this->sendPostData($url_send, $data);
-            $curlresponse = json_decode($response, true);
+            $decoded = json_decode($response, true);
 
         }
 
         $viewlet = View::factory('property/_search')
-            ->bind('curlresponse', $curlresponse);
+            ->bind('curlresponse', $decoded);
         $view = View::factory('property/side')
             ->bind('viewlet', $viewlet);
         $this->template->view = $view;
