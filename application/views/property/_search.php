@@ -32,8 +32,8 @@
 <div id="cal_wrapper">
 
 <div id="cal_controls"><div id="cal_mnth">Change Month:</div>
-    <div id="cal_prev" title="Previous  months"><img src="images/icon_prev.gif" class="cal_button" style="cursor: pointer;"></div>
-    <div id="cal_next" title="Next  months"><img src="images/icon_next.gif" class="cal_button" style="cursor: pointer;"></div>
+    <div id="cal_prev" title="Previous  months"><img src="<?php echo URL::base(); ?>media/images/icon_prev.gif" class="cal_button" style="cursor: pointer;"></div>
+    <div id="cal_next" title="Next  months"><img src="<?php echo URL::base(); ?>media/images/icon_next.gif" class="cal_button" style="cursor: pointer;"></div>
 
     <div class="key">
 
