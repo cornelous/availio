@@ -120,6 +120,8 @@ class Controller_Property extends Controller_Application {
             $response = $this->sendPostData($url_send, $data);
             $curlresponse = json_decode($response, true);
 
+
+
             $est = array();
             foreach($curlresponse as $myObj){
                 $est[] = $myObj['bb'];
