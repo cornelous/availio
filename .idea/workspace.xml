@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="property.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="property.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="2594" selection-end="2594" vertical-scroll-proportion="-20.75" vertical-offset="777" max-vertical-offset="1515">
+            <state line="74" column="36" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.5522388" vertical-offset="777" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_search.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_search.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/property/_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="26" selection-start="4320" selection-end="4320" vertical-scroll-proportion="0.58474576" vertical-offset="1215" max-vertical-offset="4530">
+            <state line="104" column="26" selection-start="4320" selection-end="4320" vertical-scroll-proportion="-14.375" vertical-offset="1215" max-vertical-offset="4530">
               <folding>
                 <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -362,8 +362,8 @@
         <option value="$PROJECT_DIR$/media/css/admin-pages.css" />
         <option value="$PROJECT_DIR$/application/views/property/side.php" />
         <option value="$PROJECT_DIR$/application/views/template.php" />
-        <option value="$PROJECT_DIR$/application/classes/controller/property.php" />
         <option value="$PROJECT_DIR$/application/views/property/_search.php" />
+        <option value="$PROJECT_DIR$/application/classes/controller/property.php" />
       </list>
     </option>
   </component>
@@ -1079,16 +1079,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="2594" selection-end="2594" vertical-scroll-proportion="-20.75" vertical-offset="777" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/property/_search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="26" selection-start="4320" selection-end="4320" vertical-scroll-proportion="0.58474576" vertical-offset="1215" max-vertical-offset="4530">
+        <state line="104" column="26" selection-start="4320" selection-end="4320" vertical-scroll-proportion="-14.375" vertical-offset="1215" max-vertical-offset="4530">
           <folding>
             <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1278,6 +1271,13 @@
             <marker date="1417684787278" expanded="true" signature="16918:16999" placeholder="..." />
             <marker date="1417684787278" expanded="true" signature="16918:16999" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/controller/property.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="36" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.5522388" vertical-offset="777" max-vertical-offset="1500">
+          <folding />
         </state>
       </provider>
     </entry>
