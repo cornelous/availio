@@ -102,7 +102,42 @@
 <!-- END LOGIN FORM -->
 </div>
 
-<?php var_dump($curlresponse); ?>
+<?php 
+$est = array();
+foreach($curlresponse as $myObj){
+    $est[] = $myObj['bb'];
+}
+
+$numOfest= count($est);
+
+for ($i =0; $i <= $numOfest; $i++){
+    foreach ($est as $key => $hotel){
+        if (!is_null($hotel[$i]['bbid'])){
+            echo "{$hotel[$i]['bbid']} - {$hotel[$i]['name']}\n";
+        }
+        $rooms = array();
+        $rooms[] = $hotel[$i]['roomtypes'];
+    }
+    //print_r($rooms);
+    $numOfrooms = count($rooms[0]);
+    //echo "{$numOfrooms}\n";
+
+    //print_r($rooms);
+    for ($idx =0; $idx <= $numOfrooms; $idx++){
+        foreach($rooms as $room){
+            echo "{$room[$idx]['roomtypename']}\n";
+            echo "{$room[$idx]['mealplans'][0]['rates']['pax1']} \n";
+            echo "{$room[$idx]['mealplans'][0]['rates']['pax2']}";
+            //for each room show daily rates
+        }
+    }
+}
+
+
+
+
+
+?>
 
 <div id="the_months">
     <div id="12_2014" class="cal_month load_cal">
