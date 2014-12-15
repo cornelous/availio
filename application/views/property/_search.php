@@ -103,9 +103,11 @@
 </div>
 
 <?php
-    var_dump($curlresponse);
+
 
     if (!empty($curlresponse)){
+
+        var_dump($curlresponse);
 
             header('Content-Type: application/json');
             $est = array();
