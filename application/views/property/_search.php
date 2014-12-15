@@ -110,7 +110,7 @@
             header('Content-Type: application/json');
             $est = array();
 
-            foreach($curlresponse[2] as $myObj){
+            foreach($curlresponse[1] as $myObj){
                 $est[] = $myObj['bb'];
             }
 
