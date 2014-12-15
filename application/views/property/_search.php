@@ -103,7 +103,7 @@
 </div>
 
 <?php
-    print_r($curlresponse);
+    var_dump($curlresponse);
 
     header('Content-Type: application/json');
     $est = array();
