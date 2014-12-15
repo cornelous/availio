@@ -109,7 +109,7 @@
 
         var_dump($curlresponse);
 
-            header('Content-Type: application/json');
+            //header('Content-Type: application/json');
             $est = array();
 
             foreach($curlresponse as $myObj){
