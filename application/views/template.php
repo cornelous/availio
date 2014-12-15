@@ -30,7 +30,7 @@
 
     <script>
         $(function() {
-            var base_url = "http://cornelo.us/";
+            var base_url = "http://availio.co.za/";
             $( "#date-picker-input-1" ).datepicker({
                 inline: true,
                 dateFormat: 'yy-mm-dd',
