@@ -62,11 +62,11 @@
       <file leaf-file-name="_search.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/property/_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="12" selection-start="4312" selection-end="4312" vertical-scroll-proportion="0.38135594" vertical-offset="1350" max-vertical-offset="5040">
+            <state line="137" column="7" selection-start="4336" selection-end="5366" vertical-scroll-proportion="0.8135593" vertical-offset="1575" max-vertical-offset="5040">
               <folding>
-                <marker date="1418633521777" expanded="true" signature="3995:4187" placeholder="..." />
-                <marker date="1418633521777" expanded="true" signature="5495:5518" placeholder="..." />
-                <marker date="1418633521777" expanded="true" signature="9252:9275" placeholder="..." />
+                <marker date="1418633751117" expanded="true" signature="3995:4187" placeholder="..." />
+                <marker date="1418633751117" expanded="true" signature="5557:5580" placeholder="..." />
+                <marker date="1418633751117" expanded="true" signature="9314:9337" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -454,9 +454,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="110" column="27" selection-start="4423" selection-end="4423" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="5040">
           <folding>
-            <marker date="1418633521777" expanded="true" signature="3995:4187" placeholder="..." />
-            <marker date="1418633521777" expanded="true" signature="5495:5518" placeholder="..." />
-            <marker date="1418633521777" expanded="true" signature="9252:9275" placeholder="..." />
+            <marker date="1418633751117" expanded="true" signature="3995:4187" placeholder="..." />
+            <marker date="1418633751117" expanded="true" signature="5557:5580" placeholder="..." />
+            <marker date="1418633751117" expanded="true" signature="9314:9337" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -778,11 +778,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/property/_search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="12" selection-start="4312" selection-end="4312" vertical-scroll-proportion="0.38135594" vertical-offset="1350" max-vertical-offset="5040">
+        <state line="137" column="7" selection-start="4336" selection-end="5366" vertical-scroll-proportion="0.8135593" vertical-offset="1575" max-vertical-offset="5040">
           <folding>
-            <marker date="1418633521777" expanded="true" signature="3995:4187" placeholder="..." />
-            <marker date="1418633521777" expanded="true" signature="5495:5518" placeholder="..." />
-            <marker date="1418633521777" expanded="true" signature="9252:9275" placeholder="..." />
+            <marker date="1418633751117" expanded="true" signature="3995:4187" placeholder="..." />
+            <marker date="1418633751117" expanded="true" signature="5557:5580" placeholder="..." />
+            <marker date="1418633751117" expanded="true" signature="9314:9337" placeholder="..." />
           </folding>
         </state>
       </provider>
